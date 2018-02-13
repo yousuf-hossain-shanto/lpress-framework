@@ -1,0 +1,25 @@
+{
+    "name": "lpress/framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yousuf Hossain Shanto",
+            "email": "yousuf.hossain.shanto@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^5.5",
+        "illuminate/view": "^5.5",
+        "illuminate/events": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        },
+        "files": [
+        	"config/app.php",
+        	"config/database.php",
+        	"App/helpers/functions.php"
+    	]
+    }
+}
